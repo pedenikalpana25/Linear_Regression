@@ -20,13 +20,19 @@ The goal is to understand how car features such as engine size, mileage, max pow
 
 ## 📌 Problem Statement
 
-Cars24 predicts car selling prices using:
-1. Past sales records  
-2. Rule-based depreciation  
-3. Car condition  
-4. Car features (engine, mileage, etc.)
+This project predicts car selling prices using Cars24 dataset features such as:
+- full_name (car make + model)
+- year (manufacturing year)
+- seller_type (Dealer / Individual)
+- km_driven (total distance driven)
+- fuel_type (Petrol, Diesel, CNG, etc.)
+- transmission_type (Manual / Automatic)
+- mileage
+- engine (engine capacity in CC)
+- max_power
+- seats
 
-This project builds a **Linear Regression model** using these features to predict selling price more accurately.
+Using these features, a Linear Regression model is built to accurately estimate the selling price of used cars.
 
 ---
 
@@ -103,4 +109,4 @@ Email: **kalpanapedeni2000@gmail.com**
 LinkedIn: **linkedin.com/in/pedeni-kalpana**
 
 
-Split:
+
